@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="DELUXE">
+    <meta name="keywords" content="DELUXE, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DELUXE</title>
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="offcanvas__logo">
+            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+        <div class="offcanvas__btn__widget">
+            <a href="rooms.php">Book Now <span class="arrow_right"></span></a>
+        </div>
+        <div class="offcanvas__widget">
+            <ul>
+                <li><span class="icon_pin_alt"></span> 140 Sir James Pieris Mawatha Colombo,SL</li>
+                <li><span class="icon_phone"></span> +94 76 333 5230</li>
+            </ul>
+        </div>
+        <div class="offcanvas__language">
+            <img src="img/lan.png" alt="">
+            <span>English</span>
+            <i class="fa fa-angle-down"></i>
+            <ul>
+                <li>English</li>
+                <li>Sinhala</li>
+            </ul>
+        </div>
+        <div class="offcanvas__auth">
+            <ul>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Offcanvas Menu End -->
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <ul class="header__top__widget">
+                            <li><span class="icon_pin_alt"></span> 140 Sir James Pieris Mawatha Colombo,SL</li>
+                            <li><span class="icon_phone"></span> +94 76 333 5230</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="header__top__right">
+                            <div class="header__top__auth">
+                                <ul>
+                                    <li><a href="#">Login</a></li>
+                                    <li><a href="#">Register</a></li>
+                                </ul>
+                            </div>
+                            <div class="header__top__language">
+                                <img src="img/lan.png" alt="">
+                                <span>English</span>
+                                <i class="fa fa-angle-down"></i>
+                                <ul>
+                                    <li>English</li>
+                                    <li>Sinhala</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__nav__option">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="header__logo">
+                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="header__nav">
+                            <nav class="header__menu">
+                                <ul class="menu__class">
+                                    <li class="active"><a href="./index.html">Home</a></li>
+                                    <li><a href="./rooms.php">Rooms</a></li>
+                                    <li><a href="./about.html">About us</a></li>
+                                    <li><a href="#">Pages</a>
+                                        <ul class="dropdown">
+                                            <li><a href="./about.html">About us</a></li>
+                                            <li><a href="./room-details.html">Room Details</a></li>
+                                            <li><a href="./blog-details.html">Blog Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="./blog.html">News</a></li>
+                                    <li><a href="./contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                            <div class="header__nav__widget">
+                                <a href="rooms.php">Book Now <span class="arrow_right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="canvas__open">
+                    <span class="fa fa-bars"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero spad set-bg" data-setbg="img/hero.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hero__text">
+
+                        <h2>" Reimagine the timeless glamour of travel in modern Asia "</h2>
+                    </div>
+                    <form action="rooms.php" class="filter__form">
+                        <div class="filter__form__item filter__form__item--search">
+                            <p>Location</p>
+                            <div class="filter__form__input">
+                                <input type="text" placeholder="Search Location">
+                                <span class="icon_search"></span>
+                            </div>
+                        </div>
+                        <div class="filter__form__item">
+                            <p>Check In</p>
+                            <div class="filter__form__datepicker">
+                                <span class="icon_calendar"></span>
+                                <input type="text" class="datepicker_pop check__in">
+                                <i class="arrow_carrot-down"></i>
+                            </div>
+                        </div>
+                        <div class="filter__form__item">
+                            <p>Check Out</p>
+                            <div class="filter__form__datepicker">
+                                <span class="icon_calendar"></span>
+                                <input type="text" class="datepicker_pop check__out">
+                                <i class="arrow_carrot-down"></i>
+                            </div>
+                        </div>
+                        <div class="filter__form__item filter__form__item--select">
+                            <p>Person</p>
+                            <div class="filter__form__select">
+                                <span class="icon_group"></span>
+                                <select>
+                                    <option value="">2 Adult, 1 Children</option>
+                                    <option value="">2 Adult</option>
+                                    <option value="">1 Adult</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit">BOOK NOW</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Home About Section Begin -->
+    <section class="home-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="home__about__text">
+                        <div class="section-title">
+                            <h2>Welcome to HOTEL DELUXE</h2>
+                        </div>
+                        <p class="first-para">HOTEL DELUXE is the first luxury landmark hotel representing Sri Lanka and is operated by THE GRAND PLAZA HOTELS AND RESORTS, the country's biggest hotel group that boasts a half a century's expertise and premium services.</p>
+                        <p class="last-para">As a signature brand of THE GRAND PLAZA HOTELS AND RESORTS, HOTEL DELUXE offers the ultimate experience for top-class customers from all over the world.</p>
+                        <img src="img/home-about/sign.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="home__about__pic">
+                        <img src="img/home-about/home-about.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home About Section End -->
+
+    <!-- Services Section Begin -->
+    <section class="services spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="services__item">
+                        <img src="img/services/services-1.png" alt="">
+                        <h4>SPA</h4>
+                        <p>De spa opens into a blooming garden dedicate to well-being and balanced offering a sloarium & open-air treatment pavillions.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="services__item">
+                        <img src="img/services/services-2.png" alt="">
+                        <h4>AIRPORT SHUTTLE SERVICE</h4>
+                        <p>24 hours free shuttle service from Bandaranaike International Airport,Colombo to the hotel suite.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="services__item">
+                        <img src="img/services/services-3.png" alt="">
+                        <h4>GOLF</h4>
+                        <p>Our beautiful golf courses, in equally beautiful settings, are as much fun for novices to play as they are for the pros.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="services__item">
+                        <img src="img/services/services-4.png" alt="">
+                        <h4>INDOOR & OUTDOOR POOLS</h4>
+                        <p>A paragon-decorated with spanish majolica tiles and supported by a sturdy system used by railroad bridges.Built in 1965. This is one of the oldest in Colombo, One of the biggest in the country & perhaps the most beautiful in the
+                            world.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="services__item">
+                        <img src="img/services/services-5.png" alt="">
+                        <h4>FITNESS CENTER</h4>
+                        <p>Our newly renovated, three level fitness center features cardio machines, cable machines, free-weight stations, peloton bags and more.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="services__item">
+                        <img src="img/services/services-6.png" alt="">
+                        <h4>DELUXE BAR</h4>
+                        <p>Enjoy an intimate aperitif in the library, relax on the terrace or pull up a stool to watch our bartenders craft champagne coktails and pour legendary single malts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Home Room Section Begin -->
+    <section class="home-room spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h5>S T A Y &nbsp W I T H &nbsp U S</h5>
+                        <h2>R O O M S &nbsp A N D &nbsp S U I T S</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 p-0">
+                    <div class="home__room__item set-bg" data-setbg="img/home-room/hr-1.jpg">
+                        <div class="home__room__title">
+                            <h4>P R E M I U M &nbsp K I N G &nbsp S U I T</h4>
+                            <h2><sup>$</sup>99<span>/day</span></h2>
+                        </div>
+                        <a href="#">B O O K &nbsp N O W</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 p-0">
+                    <div class="home__room__item set-bg" data-setbg="img/home-room/hr-2.jpg">
+                        <div class="home__room__title">
+                            <h4>D E L U X E &nbsp S U I T</h4>
+                            <h2><sup>$</sup>89<span>/day</span></h2>
+                        </div>
+                        <a href="#">B O O K &nbsp N O W</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 p-0">
+                    <div class="home__room__item set-bg" data-setbg="img/home-room/hr-3.jpg">
+                        <div class="home__room__title">
+                            <h4>D O U B L E &nbsp R O O M</h4>
+                            <h2><sup>$</sup>95<span>/day</span></h2>
+                        </div>
+                        <a href="#">B O O K &nbsp N O W</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 p-0">
+                    <div class="home__room__item set-bg" data-setbg="img/home-room/hr-4.jpg">
+                        <div class="home__room__title">
+                            <h4>L U X U R Y &nbsp R O O M</h4>
+                            <h2><sup>$</sup>79<span>/day</span></h2>
+                        </div>
+                        <a href="#">B O O K &nbsp N O W</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="home__explore">
+                <div class="row">
+                    <div class="col-lg-9 col-md-8">
+                        <h3>Planning your next trip? Save up to 35% off</h3>
+                    </div>
+                    <div class="col-lg-3 col-md-4 text-center">
+                        <a href="#" class="primary-btn">Explorer More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home Room Section End -->
+
+    <!-- Testimonial Section Begin -->
+    <section class="testimonial spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="testimonial__pic">
+                        <img src="img/testimonial-left.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="testimonial__text">
+                        <div class="section-title">
+                            <h5>T e s t i m o n i a l s</h5>
+                            <h2>G U E S T S &nbsp R E V I E W S</h2>
+                        </div>
+                        <div class="testimonial__slider__content">
+                            <div class="testimonial__slider owl-carousel">
+                                <div class="testimonial__item">
+                                    <h5>Detailed Review:</h5>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                    <p>"Fabulous experience. The hotel property is beautiful, and very well managed. Rooms were tastefully decorated, spacious, and comfortable. We received good Bonvoy Platinum Elite recognition. The service received from
+                                        the staff was superb, even from before our arrival."</p>
+                                    <div class="testimonial__author">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="testimonial__author__title">
+                                                    <h5>MR.Peter Kevinsky</h5>
+                                                    <span>Businessman</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="testimonial__author__social">
+                                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial__item">
+                                    <h5>Detailed Review:</h5>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                    <p>"This hotel exceeds all expectations in every way . You walk in here and your treated like royalty. The staff , the hotel , bars , facilities, butler service , room, swimming pool , gym are all amazing . This is the
+                                        best hotel I’ve ever stayed in and that’s a lot including the ritz and many 5 stars . We had two rooms which we were upgraded to in a Premium King package and they were absolutely stunning . Thanks again to all
+                                        that work at the hotel to make such a rewarding experience."</p>
+                                    <div class="testimonial__author">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="testimonial__author__title">
+                                                    <h5>Mrs.Jorja Smith</h5>
+                                                    <span>Artist/Journelist</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="testimonial__author__social">
+                                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial__item">
+                                    <h5>Detailed Review:</h5>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                    <p>"Not often have I had a stay that reached so high on many aspects. The butler team made me feel so cared for and catered to. Everyday across my 5 day stay I was greeted by the amazing butler team; sincerely greeted
+                                        and asked how I was enjoying my stay currently."</p>
+                                    <div class="testimonial__author">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="testimonial__author__title">
+                                                    <h5>Mr.Patrick Hemsworth</h5>
+                                                    <span>Director</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="testimonial__author__social">
+                                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial__item">
+                                    <h5>Detailed Review:</h5>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                    <p>"Excellent new option for staying in SL, next to Colombo City Center"</p>
+                                    <div class="testimonial__author">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="testimonial__author__title">
+                                                    <h5>Miss.Babara Houstan</h5>
+                                                    <span>Social Scientist</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="testimonial__author__social">
+                                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-num" id="snh-1"></div>
+                            <div class="slider__progress"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial Section End -->
+
+    <!-- Chooseus Section Begin -->
+    <div class="chooseus spad set-bg" data-setbg="img/chooseus-bg.jpg">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <div class="chooseus__text">
+                        <div class="section-title">
+                            <h5>F O R B S &nbsp 2019</h5>
+                            <h2>"DELUXE might just be the most majical place on earth"</h2>
+                        </div>
+                        <a href="#" class="primary-btn">Booking Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Chooseus Section End -->
+
+    <!-- Gallery Section Begin -->
+    <section class="gallery spad">
+        <div class="gallery__text">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="section-title">
+                            <h5>A C T I V I T I E S &nbsp F O R &nbsp E V E R Y &nbsp G E N E R A T I O N</h5>
+                            <h2>Explore The Glorious Paradise in Modern Asia</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="gallery__title">
+                            <p>Take a look of a charming country estate, a rural family adventure, a luxurious escape for friends, a cosy couples' retreat, a home from home – DELUXE is a hotel like no other.</p>
+                            <a href="#" class="primary-btn">View Gallery <span class="arrow_right"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery__slider owl-carousel">
+            <div class="gallery__item small__item set-bg" data-setbg="img/gallery/gallery-1.jpg"></div>
+            <div class="gallery__item set-bg" data-setbg="img/gallery/gallery-2.jpg"></div>
+            <div class="gallery__item set-bg" data-setbg="img/gallery/gallery-3.jpg"></div>
+            <div class="gallery__item set-bg" data-setbg="img/gallery/gallery-4.jpg"></div>
+        </div>
+    </section>
+    <!-- Gallery Section End -->
+
+    <!-- Latest Blog Section Begin -->
+    <section class="latest-blog spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+
+                        <h2>T A L E S &nbsp F R O M &nbsp T H E &nbsp G L O U R I O U S &nbsp P A R A D I S E</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 p-0 order-lg-1 col-md-6 order-md-1">
+                    <div class="latest__blog__pic set-bg" data-setbg="img/latest-blog/lb-1.jpg"></div>
+                </div>
+                <div class="col-lg-3 p-0 order-lg-2 col-md-6 order-md-2">
+                    <div class="latest__blog__text">
+                        <div class="label">F O O D</div>
+                        <h5>The taste of DELUXE</h5>
+                        <p><i class="fa fa-clock-o"></i> 18th July, 2020</p>
+                        <a href="#">E X P L O R E</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 p-0 order-lg-3 col-md-6 order-md-4">
+                    <div class="latest__blog__pic set-bg" data-setbg="img/latest-blog/lb-2.jpg"></div>
+                </div>
+                <div class="col-lg-3 p-0 order-lg-4 col-md-6 order-md-3">
+                    <div class="latest__blog__text">
+                        <div class="label">A W A R D S</div>
+                        <h5>Nominated for the Luxury Hotel Awards</h5>
+                        <p><i class="fa fa-clock-o"></i> 16th July, 2020</p>
+                        <a href="#">E X P L O R E</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 p-0 order-lg-6 col-md-6 order-md-5">
+                    <div class="latest__blog__pic latest__blog__pic__last__row set-bg" data-setbg="img/latest-blog/lb-3.jpg"></div>
+                </div>
+                <div class="col-lg-3 p-0 order-lg-5 col-md-6 order-md-6">
+                    <div class="latest__blog__text">
+                        <div class="label">H O T E L</div>
+                        <h5>Open day-21st of September 2020</h5>
+                        <p><i class="fa fa-clock-o"></i> 13th July, 2020</p>
+                        <a href="#">E X P L O R E</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 p-0 order-lg-8 col-md-6 order-md-8">
+                    <div class="latest__blog__pic latest__blog__pic__last__row set-bg" data-setbg="img/latest-blog/lb-4.jpg"></div>
+                </div>
+                <div class="col-lg-3 p-0 order-lg-7 col-md-6 order-md-7">
+                    <div class="latest__blog__text">
+                        <div class="label">C U I S I N E</div>
+                        <h5>Enjoy sunday brunch at Hotel DELUXE</h5>
+                        <p><i class="fa fa-clock-o"></i> 10th July, 2020</p>
+                        <a href="#">E X P L O R E</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Latest Blog Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="logo__carousel owl-carousel">
+                        <div class="logo__carousel__item">
+                            <a href="#"><img src="img/logo/logo-1.png" alt=""></a>
+                        </div>
+                        <div class="logo__carousel__item">
+                            <a href="#"><img src="img/logo/logo-2.png" alt=""></a>
+                        </div>
+                        <div class="logo__carousel__item">
+                            <a href="#"><img src="img/logo/logo-3.png" alt=""></a>
+                        </div>
+                        <div class="logo__carousel__item">
+                            <a href="#"><img src="img/logo/logo-4.png" alt=""></a>
+                        </div>
+                        <div class="logo__carousel__item">
+                            <a href="#"><img src="img/logo/logo-5.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer__content">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer__about">
+                            <div class="footer__logo">
+                                <a href="#"><img src="img/logo.png" alt=""></a>
+                            </div>
+                            <h4>+94 76 333 5230</h4>
+                            <ul>
+                                <li>140 Sir James Pieris Mawatha Colombo,SL</li>
+                                <li>Info.HotelDeuxe@gmail.com</li>
+                            </ul>
+                            <div class="footer__social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1 col-md-5 offset-md-1 col-sm-6">
+                        <div class="footer__widget">
+                            <h4>Quick Link</h4>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Booking</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Review</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Our Room</a></li>
+                                <li><a href="#">Restaurants</a></li>
+                                <li><a href="#">Payments</a></li>
+                                <li><a href="#">Events</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-8 col-sm-12">
+                        <div class="footer__newslatter">
+                            <h4>Subscribe our newlatester</h4>
+                            <form action="#">
+                                <input type="text" placeholder="Your E-mail Address">
+                                <button type="submit">Subscribe</button>
+                            </form>
+                            <div class="footer__newslatter__find">
+                                <h5>Find Us:</h5>
+                                <div class="footer__newslatter__find__links">
+                                    <a href="#"><i class="fa fa-tripadvisor"></i></a>
+                                    <a href="#"><i class="fa fa-map-o"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                    <a href="#"><i class="fa fa-forumbee"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <div class="row">
+                    <div class="col-lg-7 col-md-7">
+
+                        <div class="footer__copyright__text">
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 col-md-5">
+                        <ul class="footer__copyright__links">
+                            <li><a href="#">Terms Of Use</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
